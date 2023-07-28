@@ -1,0 +1,25 @@
+@import '../../../variable';
+
+.Navbar{
+    background: linear-gradient(0deg,#03165b,#172b77);
+    color: $white-color;
+
+    ul{
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 1.5rem;
+        padding: 0 10rem;
+        font-weight: 500;
+        list-style: none;
+        margin: 0 !important;
+    }
+
+    li{
+        padding: 1rem ;
+    }
+
+    li:hover{
+        background-color: #4457a3;
+    }
+}

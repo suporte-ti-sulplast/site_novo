@@ -1,0 +1,45 @@
+@import '../../../variable';
+
+.Cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 10rem;
+    justify-content: center;
+    background-color: $white-color;
+
+
+    .card{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        gap: 1rem;
+        justify-items: center;
+        border: none !important;
+
+        div{
+            text-align: center;
+            margin: auto;
+            
+            h1{
+                text-align: left;
+                margin: 1rem;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+    }
+
+    .bottom{display: flex;
+        gap: 5rem;
+        .btn{
+            background-color: blue;
+            color: $white-color;
+        }
+
+        img{
+            width: 60px;
+        }
+    }
+}
